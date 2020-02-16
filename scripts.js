@@ -14,6 +14,12 @@ function acessarVariaveisGlobais() {
 
 }
 
+// Chamada de função antes da reatribuição
+acessarVariaveisGlobais()
+
+// Reatribuição de valor na variável numero
+numero = 8
+console.log("variavel numero foi reatribuida", numero)
 
 // criei um bloco de função
 function mostrarGreen() {
