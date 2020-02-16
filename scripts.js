@@ -53,3 +53,30 @@ function mostrarLista() {
 }
 
 mostrarLista()
+
+function criarVariaveisLocais() {
+    console.log("função para acessar paises")
+
+    // Esta variável é local
+    var paises = [
+        "França",
+        "Inglaterra",
+        "Romenia",
+        "Canada",
+
+    ]
+    console.log(paises)
+}
+
+var paises = [
+    "França",
+    "Inglaterra",
+    "Romenia",
+    "Canada",
+
+]
+
+criarVariaveisLocais()
+
+// Variável local não pode ser acessada fora do escopo local
+console.log(paises)
