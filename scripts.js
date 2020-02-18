@@ -68,6 +68,13 @@ function criarVariaveisLocais() {
     console.log(paises)
 }
 
+if (lista.length > 10) {
+    console.log("O tamanho da lista é diferente de 10")
+
+} else {
+    console.log("O tamanho da lista é:", lista.length)
+}
+
 var paises = [
     "França",
     "Inglaterra",
@@ -80,3 +87,8 @@ criarVariaveisLocais()
 
 // Variável local não pode ser acessada fora do escopo local
 console.log(paises)
+
+// Se for maior que do que a quantidade de itens ou se for igual a qautidade itens, ele irá executar
+if (lista.length >= 10) {
+    console.log(lista.length)
+}
