@@ -92,3 +92,21 @@ console.log(paises)
 if (lista.length >= 10) {
     console.log(lista.length)
 }
+
+// Criando Arrays
+var array = ['Alexia', 'Robert', 2019];
+
+function acessarArray() {
+    console.log(array)
+
+}
+
+acessarArray()
+
+if (array.length > 10) {
+    console.log("A quantidade de array é igual a 0")
+
+} else {
+    console.log("A quantidade de Array é:", array.length)
+}
+var pessoa = {};
