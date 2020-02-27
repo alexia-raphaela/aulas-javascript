@@ -12,19 +12,59 @@
 </body>
 
 <script>
-    var pessoa = {
-        nome: ['Bob', 'Smith'],
-        idade: 32,
-        sexo: 'masculino',
-        interesses: ['música', 'esquiar'],
-        bio: function() {
-            alert(this.nome[0] + ' ' + this.nome[1] + 'tem' + 'anos de idade. Ele gosta de ' + this.interesses[0] + ' e ' + this.interesses[1] + '.');
+    var pessoa = [
+
+        {
+            nome: ['Bob', 'Smith'],
+            idade: 32,
+            sexo: 'masculino',
+            interesses: ['música', 'esquiar'],
+            bio: function() {
+                alert(this.nome[0] + ' ' + this.nome[1] + 'tem' + 'anos de idade. Ele gosta de ' + this.interesses[0] + ' e ' + this.interesses[1] + '.');
+
+            },
+            saudacao: function() {
+                alert('Oi! Eu sou' + this.nome[0] + '.');
+            }
+        },
+
+        {
+            nome: ['Aléxia', 'Raphaela'],
+            idade: 18,
+            sexo: 'feminino',
+            interesses: ['música', 'tecnologia da informação'],
+            bio: function() {
+                alert(this.nome[0] + ' ' + this.nome[1] + ' tem ' + this.idade + ' anos de idade. Ela gosta de ' + this.interesses[0] + ' e ' + this.interesses[1] + '.');
+
+            },
+            saudacao: function() {
+                alert('Oi! Eu sou' + this.nome[0] + '.');
+            },
 
         },
-        saudacao: function() {
-            alert('Oi! Eu sou' + this.nome[0] + '.');
+
+        {
+            nome: ['Robert', 'Prado'],
+            idade: 27,
+            sexo: 'masculino',
+            interesses: ['tecnologia da informação', 'autodidata'],
+            bio: function() {
+                alert(this.nome[0] + '' + this.nome[1] + 'tem' + this.idade + 'anos de idade. Ele gosta de' + this.interesses[0] + 'e' + this.interesses[1] + '.');
+            },
+            saudacao: function() {
+                alert('Oi! Eu sou' + this.nome[1] + '.');
+            }
+
+
+
+
+
         }
-    };
+
+
+
+
+    ]
 
     // Minhas primeiras variáveis globais
     var numero = 3;
